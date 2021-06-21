@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(music2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.left-col{
+    margin-left: 12%;
+
+}
+.left-col h1{
+    font-size: 90px;
+    color: lavender;
+    height: 110px;
+    float: left;
+}
+.right-col{
+    float: right;
+    margin-right: 4%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.right-col p{
+    font-size: 19px;
+    color: lightgoldenrodyellow;
+    font-weight: 400;
+    margin-right: 15px;
+}
+#icon{
+    width: 50px;
+    cursor: pointer;
+}    
